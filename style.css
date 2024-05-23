@@ -8,7 +8,6 @@ form button,
 .btn:hover,
 .btn:active,
 .btn:visited {
-    width: 100%;
     background-color: #326d6d;
     color: white;
 }
@@ -52,18 +51,30 @@ footer {
     box-sizing: border-box; /* Ensures content fits within border */
 }
 
+#btnAgregar {
+    width: 100%;
+}
+
 .btn-primary {
     background-color: #007bff; /* Blue color using Bootstrap class */
     color: #fff;
     border-color: #007bff; /* Blue border matching background */
-    padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out; /* Smooth hover effect */
+    width: 80px;
+    margin: 3px;
+    margin-left: 10px;
 }
 
 .btn-primary:hover {
     background-color: #0069d9; /* Slightly darker shade on hover */
+}
+
+.btn-danger {
+    background-color: red;
+    width: 80px;
+    margin: 3px;
 }
 
 /* Listado */
@@ -82,7 +93,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.div-empleados {
+.div-productos {
     display: flex; /* Enable flexbox layout for responsive arrangement */
     flex-wrap: wrap; /* Allow items to wrap to multiple lines if needed */
     justify-content: space-between; /* Distribute items evenly with spacing */
