@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/form.svg" alt="Logo" width="40" height="30" class="d-inline-block align-text-top text-white">
+          CRUD local JavaScript
+        </a>
+      </div>
+    </nav>
+  </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-container">
+                    <form action="#" id="formulario">
+                        <div class="form-group">
+                            <label for="nombreProducto" class="form-label">Nombre del Producto</label>
+                            <input type="text" class="form-control" id="nombreProducto" placeholder="Ingrese el nombre del producto" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="precioProducto" class="form-label">Precio del Producto</label>
+                            <input type="number" class="form-control" id="precioProducto" placeholder="Ingrese el precio" autocomplete="off" required>
+                        </div>
+                        <button type="submit" id="btnAgregar" class="btn btn-primary">Agregar Producto</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="div-listado">
+                    <h2>Listado productos</h2>
+                    <div class="div-empleados">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="www.linkedin.com/in/andresccc" class="nav-link px-2 text-white">Linkedin</a></li>
+            <li class="nav-item"><a href="https://github.com/andresccc" class="nav-link px-2 text-white">GitHub</a></li>
+          </ul>
+          <p class="text-center text-white">Realizado por Andrés Gómez © 2024</p>
+        </footer>
+      </div>
+    </footer>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+      ></script>
+    <script src="app.js"></script>
+</body>
+</html>

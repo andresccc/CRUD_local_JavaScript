@@ -1,0 +1,78 @@
+header {
+    background-color: #1B4D4D;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #1B4D4D;
+}
+
+.navbar-brand, 
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:visited {
+    color: white;
+}
+
+.form-container {
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensures content fits within border */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue color using Bootstrap class */
+    color: #fff;
+    border-color: #007bff; /* Blue border matching background */
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #0069d9; /* Slightly darker shade on hover */
+}
+
+/* Listado */
+.div-listado {
+    width: 80%; /* Adjust width as needed */
+    min-height:100%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.div-listado h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div-empleados {
+    display: flex; /* Enable flexbox layout for responsive arrangement */
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines if needed */
+    justify-content: space-between; /* Distribute items evenly with spacing */
+}
