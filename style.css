@@ -3,6 +3,16 @@ header {
     margin-bottom: 80px;
 }
 
+form button,
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited {
+    width: 100%;
+    background-color: #326d6d;
+    color: white;
+}
+
 footer {
     background-color: #1B4D4D;
     margin-top: 100px;
